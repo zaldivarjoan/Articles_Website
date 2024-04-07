@@ -16,9 +16,10 @@ import cs3220.model.Users;
 
 public class DbService {
 
-	private String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu35";
-	private String username = "cs3220stu35";
-	private String password = "Sd3TFMvxW5Ov";
+	//Here I would add my information to connect to the db database that was provided to me
+	private String url = "";
+	private String username = "";
+	private String password = "";
 	private Connection connection;
 
 	public DbService() {
